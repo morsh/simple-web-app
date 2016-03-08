@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "siteName": { "value": "web-app-site" },
+    "hostingPlanName": { "value": "BasicHostingPlan" },
+    "sku": { "value": "Basic" },
+    "siteLocation": { "value": "West US" },
+    "repoURL": { "value": "https://github.com/morsh/simple-web-app.git" },
+    "branch": { "value": "master" }
+  }
+}
